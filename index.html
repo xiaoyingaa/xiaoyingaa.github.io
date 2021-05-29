@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>锡林郭勒职业学院</title>
+
+    <style>
+        .box{
+            width: 400px;
+            height: 670px;
+        }
+
+        .one{
+            width: 400px;
+            height: 110px;
+            background-color: rgb(41, 186, 119);
+        }
+
+        .bao{
+            width: 400px;
+            height: 50px;
+            text-align: center;
+            color: white;
+            font-size: 40px;
+        }
+
+        .one2{
+            width: 400px;
+            height: 1px;
+
+        }
+        .one3{
+            width: 400px;
+            height: 52px;
+        }
+        .di{
+            width: 100px;
+            height: 49px;
+            text-align: right;
+            padding-left: 50px;
+            padding-top: 8px;
+            float: left;
+        }
+        .zi{
+            width:300px;
+            height:49px;
+            padding-top: 8px;
+            color: white;
+            padding-left: 50px;
+            
+        }
+
+         .gezi{
+             width:400px;
+             height: 10px;
+             background-color: rgb(219, 216, 216);
+             
+             
+             
+         }
+        .two{
+            width: 400px;
+            height: 200px; 
+            }       
+            
+
+        .two1{
+            width:180px;
+            height: 180px;
+            text-align: center;
+            padding-left:100px ;
+            }
+
+        .three{
+            width: 400px;
+            height: 350px;
+        }
+        .three1{
+            width: 400px;
+            height: 8px;
+            background-color: rgb(219, 216, 216);
+        }
+
+        .three2-1{
+            width:400;
+            height: 41px;
+            
+            
+        }
+
+        .three2-2{
+            width:400;
+            height: 41px;
+        }
+
+        .three2-3{
+            width:400;
+            height: 41px;
+        }
+
+        .three2-4{
+            width:400;
+            height: 38px;
+        }
+
+        .three2-5{
+            width:400;
+            height:56px;
+        }
+
+        .three2-6{
+            width:400;
+            height:41px;
+        }
+
+        .three2-7{
+            width:400;
+            height: 41px;
+        }
+
+        .three2-8{
+            width:400;
+            height: 41px;
+            
+        }
+        .shoudi{
+            width: 400px;
+            height: 8px;
+            background-color: rgb(219, 216, 216);
+        }
+
+
+        
+    </style>
+</head>
+<body>
+  <div class="box">
+    <div class="one">
+        <div class="bao">
+            <div id="one1">00:00:00:000
+                <script>
+                    let box = document.getElementById('one1');
+                    let Interval;
+                    setInterval(timer,50);
+            
+                    function timer() {
+                        var dateTime = new Date();
+                        var hours = dateTime.getHours();
+                        var minutes = dateTime.getMinutes();
+                        var seconds = dateTime.getSeconds();
+                        var millisecond = dateTime.getMilliseconds();
+                        millisecond = millisecond%1000;
+                        box.innerHTML=hours + ':' + minutes + ':' + seconds + ':  ' + millisecond;
+                    }
+                </script>
+        </div>
+        </div>
+        <div class="one2">
+            <hr width="360px" style="height: 0px;" color="white";/>
+        </div>
+        <div class="one3">
+            <div class="di"><img src="./2.jpg" alt="" width="20px" height="20px">
+            </div>
+            <div class="zi">主校区东门</div>
+                
+        </div>
+    </div>
+
+     <div class="two">
+        <div class="gezi"></div>
+         <div class="two1"><img src="./1.jpg" alt="" width="180px" height="170px"></div>
+         
+     </div>
+     <div class="three">
+         <div class="three1"></div> <br>
+         <div class="three2">
+            <div class="three2-1">姓名:    <strong>张文霞</strong><hr width="400px" style="height: 0.1px;" color="silver";></div>
+            <div class="three2-2">类型:    <strong>住校生</strong><hr width="400px" style="height: 0.1px;" color="silver";></div>
+            <div class="three2-3">系校:    <strong>信息技术工程学院</strong><hr width="400px" style="height: 0.1px;" color="silver";></div>
+            <div class="three2-4">班级:    <strong>安全1901</strong><hr width="400px" style="height: 0.1px;" color="silver";></div>
+            <div class="three2-5">请假时间:    <strong>2021-05-29 12:00:00 ~ 2021-05-29 <br>20:00:00</strong><hr width="400px" style="height: 0.5px;" color="silver"></div>
+            <div class="three2-6">请假理由:    <strong>购物</strong><hr width="400px" style="height: 0.1px;" color="silver";></div>
+            <div class="three2-7">班主任姓名:    <strong>朝克图</strong><hr width="400px" style="height: 0.1px;" color="silver";></div>
+            <div class="three2-8">班主任电话:    <strong>18847973600</strong><hr width="400px" style="height: 0.1px;" color="silver";></div> 
+            <div class="shoudi"><hr width="400px" style="height: 0px;" color="white";></div>
+            
+
+
+
+
+
+
+
+         </div>
+    
+     </div>
+  </div>  
+</body>
+</html>
